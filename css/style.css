@@ -1,0 +1,78 @@
+.logo-container{
+    max-width: 1590px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 95px;
+}
+.logo-container .logo-wrapper{
+    display: flex;
+    margin-right: 310px;
+}
+
+
+.locus{
+margin-left: 14px;
+width: 105px;
+height: 53px;
+left: 217px;
+top: 95px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 52px;
+color: #58A9A5;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+nav ul li:not(:last-child){
+    margin-right: 85px;
+}
+
+
+.navigation-link{
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
+font-size: 25px;
+line-height: 1px;
+color: #404242;
+text-decoration: none;
+cursor: pointer;
+}
+
+.navigation-link:hover{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #58A9A5;
+    font-size: 25px;
+}
+.navigation-link:after{
+	color: #FEC62D;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+	background-color: #FEC62D;
+	content: "";
+	transition: 0.5s;
+    border-radius: 21px;
+}
+.navigation-link:hover:after,
+.navigation-link:focus:after {
+	width: 48px;
+    height: 6px;
+}
