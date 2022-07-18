@@ -1,5 +1,5 @@
 .logo-container{
-    max-width: 1590px;
+    max-width: 1612px;
     display: flex;
     margin: 0 auto;
     margin-top: 95px;
@@ -24,13 +24,11 @@ line-height: 52px;
 color: #58A9A5;
 }
 
-
 nav {
     display: flex;
     justify-content: center;
     align-items: center;   
 }
-
 
 nav ul{
     display: flex;
@@ -38,12 +36,9 @@ nav ul{
     align-items: center;
 }
 
-
-
 nav ul li:not(:last-child){
     margin-right: 85px;
 }
-
 
 .navigation-link{
 font-family: 'Poppins', sans-serif;
@@ -54,7 +49,9 @@ color: #404242;
 text-decoration: none;
 cursor: pointer;
 }
-
+.fourth-li{
+    width: 120px;
+}
 .navigation-link:hover{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -71,8 +68,100 @@ cursor: pointer;
 	transition: 0.5s;
     border-radius: 21px;
 }
-.navigation-link:hover:after,
-.navigation-link:focus:after {
-	width: 48px;
+.first-hover:hover:after,
+.first-hover:focus:after {
+	width: 75px;
     height: 6px;
+}
+.second-hover:hover:after,
+.second-hover:focus:after {
+	width: 102px;
+    height: 6px;
+}
+.third-hover:hover:after,
+.third-hover:focus:after {
+	width: 107px;
+    height: 6px;
+}
+.fourth-hover:hover:after,
+.fourth-hover:focus:after {
+	width: 113px;
+    height: 6px;
+}
+.logo-button{
+width: 271px;
+height: 80px;
+background: #58A9A5;
+border-radius: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 220px;
+}
+.logo-button a{
+text-decoration: none;
+font-family: 'Poppins';
+font-weight: 500;
+font-size: 25px;
+color: #FFFFFF
+}
+.insp-of-interior-container{
+    max-width: 1612px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 105px;
+    align-items: center;
+    justify-content: center;
+}
+.insp-of-interior-txt-wrapper{
+    width: 778px;
+}
+.insp-of-interior-title{
+    width: 700px;
+    height: 315px;   
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 70px;
+    color: #1C2323;
+}
+.insp-of-interior-description{
+    width: 743px;
+    height: 180px;  
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 30px;    
+    color: #404242;
+    margin-top: 50px;   
+}
+.insp-of-interior-button{
+    width: 271px;
+    height: 80px;
+    background: #58A9A5;
+    border-radius: 20px 20px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.insp-of-interior-button a{
+width: 98px;
+height: 38px;
+font-family: 'Poppins';
+font-weight: 700;
+font-size: 25px;
+line-height: 38px;
+color: #FFFFFF;
+text-decoration: none;
+}
+.insp-of-interior-image-wrapper{
+width: 834px;
+height: 782px;
+background-image: url(../images/bgi\ block2.png);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.insp-of-interior-image{
+    width: 723px;
+    height: 723px;
 }
